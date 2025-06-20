@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #070707 0%, #9fb7df 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.input-group {
+    box-shadow: 0 2px 15px rgba(255, 247, 247, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.input-group input {
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+}
+
+.input-group .btn {
+    padding: 15px 30px;
+    background: #2c3e50;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.input-group .btn:hover {
+    background: #34495e;
+    transform: translateX(3px);
+}
+
+#output {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 20px;
+    background: rgba(230, 227, 227, 0.9);
+}
+
+#output img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#output img:hover {
+    transform: scale(1.05);
+}
+
+#output h4 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin: 15px 0 5px;
+}
+
+#output p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.btn-outline-primary {
+    border-color: #2c3e50;
+    color: #2c3e50;
+    padding: 10px 30px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background: #2c3e50;
+    border-color: #9fb3c7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.alert-danger {
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+}
